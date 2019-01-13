@@ -1,0 +1,107 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+#playerSection
+{
+	width: 35%;
+	margin: 4% auto;
+	padding: 10px;
+	border: 4px solid #000;
+}
+
+.wrapper__section
+{
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	position: relative;
+}
+
+.wrapper__section .user
+{
+	display: inline-block;
+	text-align: center;
+	font-size: 25px;
+	position: absolute;
+	left: 85px;
+}
+
+.wrapper__section .comp
+{
+	display: inline-block;
+	text-align: center;
+	font-size: 25px;
+	position: absolute;
+	right: 85px;
+}
+
+.wrapper__section span
+{
+	font-size: 25px;
+}
+
+#textResult
+{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#textResult p
+{
+	font-size: 25px;
+	font-family: 'Nunito', sans-serif;
+}
+
+#itemsImg
+{
+	width: 100%;
+}
+
+.wrapper__img
+{
+	width: 50%;
+	margin: 2% auto;
+	text-align: center;
+}
+
+.wrapper__img img
+{	width: 60px;
+	height: 60px;
+	margin: 10px;
+	padding: 20px;
+	border: 4px solid #000;
+	border-radius: 50%;
+	animation: 2s;
+}
+
+.wrapper__img img:hover
+{
+	cursor: pointer;
+}
+
+.winner__color
+{
+	border: 4px solid #42f459 !important;
+	box-shadow: 0 0 15px #42f488;
+}
+
+.loser__color
+{
+	border: 4px solid #f45041 !important;	
+	box-shadow: 0 0 15px #f45022;
+}
+
+.draw__color
+{
+	border: 4px solid #f4e841 !important;
+	box-shadow: 0 0 15px #f4e822;	
+}
